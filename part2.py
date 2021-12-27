@@ -11,3 +11,13 @@ Hunter
 Hunter
 
 '''
+
+num = int(input("Times to print: ")) #num = times to print
+printed = 0
+if num > 0:
+  while printed < num:
+    print ("Hunter ")
+    printed += 1
+elif num <= 0:
+  print ("Sorry! I can only print a positive number of times.")
+
